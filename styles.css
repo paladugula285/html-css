@@ -1,0 +1,101 @@
+.body{
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: url('website.jpeg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.navbar a{
+    font-weight: bold;
+    font-size: 20px;
+}
+.hero-text{
+    font-size: 28px;
+    font-weight: bold;
+}
+.card-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.card{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    background: #f9f9f9;
+    box-shadow: 0 4px 6px egba(0,0,0,0,1);
+}
+.card img{
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px; 
+}
+.card p{
+    font-size: 16px;
+    color: #555;
+}
+.highlights{
+    text-align: left;
+    padding: 20px;
+    background:#f4f4f4;
+    width: 48%;
+}
+.highlights h2{
+    margin-bottom:  10px;
+}
+.highlights ul{
+    list-style: none;
+    padding: 0;
+}
+.highlights li{
+    margin:  5px 0;
+    font-size: 16px;
+}
+.contact-info{
+    text-align: center;
+    width: 48%;
+}
+.footer{
+    background: #333;
+    text-align: center;
+    padding: 20px;
+}
+.footer-content{
+    display: flex;
+    background:rgb(176, 219, 205);
+
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+.contact-info input{
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 150px;
+    display: block;
+}
+.contact-info button{
+    padding: 8px 15px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 100px;
+    margin-left: 20px;
+}
+.contact-info button:hover{
+    background:#0056b3;
+}
